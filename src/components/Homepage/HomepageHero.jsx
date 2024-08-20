@@ -9,7 +9,7 @@ const HomepageHero = () => {
       {/* Background image with opacity */}
       <div
         style={{ backgroundImage: `url(${heroImage})` }}
-        className="absolute inset-0 bg-cover bg-center opacity-50 z-0"
+        className="absolute inset-0 bg-cover bg-center opacity-40 z-0"
       ></div>
 
       {/* Content */}
