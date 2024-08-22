@@ -4,7 +4,7 @@ import logo from "../assets/banos-logo.svg";
 const Navbar = () => {
   return (
     <>
-      <nav className="fixed w-full z-20 flex items-center justify-between px-8 py-0">
+      <nav className="fixed top-0 left-0 w-full z-20 flex items-center justify-between px-8 py-0 bg-transparent">
         <Link to="/" className="w-1/6">
           <img
             className="md:w-[160px] md:h-[160px] w-[120px] h-[120px] "
