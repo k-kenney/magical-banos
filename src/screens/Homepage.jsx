@@ -1,5 +1,6 @@
 import BanosGetaway from "../components/Homepage/BanosGetaway"
 import HomepageHero from "../components/Homepage/HomepageHero"
+import HomepageTopCards from "../components/Homepage/HomepageTopCards"
 
 
 const Homepage = () => {
@@ -7,6 +8,7 @@ const Homepage = () => {
     <>
     <HomepageHero />
     <BanosGetaway />
+    <HomepageTopCards />
     </>
   )
 }
