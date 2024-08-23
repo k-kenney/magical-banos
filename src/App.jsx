@@ -6,6 +6,7 @@ import Aboutpage from "./screens/Aboutpage";
 import Baths from "./screens/Baths";
 import ToDo from "./screens/ToDo";
 import ToEat from "./screens/ToEat";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/toDo" element={<ToDo />} />
         <Route path="/toEat" element={<ToEat />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
