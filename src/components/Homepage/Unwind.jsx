@@ -2,11 +2,11 @@ const Unwind = () => {
   return (
     <>
       <div className="py-32 m-auto p-auto w-[60%]">
-        <h2 className="text-4xl font-title text-darkBlue leading-[3rem]">
+        <h2 className="text-5xl font-title text-darkBlue leading-[3rem]">
           Unwind in Baños
         </h2>
-        <div className="text-center pt-8">
-          <p className="text-xl text-para">
+        <div className="text-center pt-10">
+          <p className="text-xl text-para leading-9">
             Nestled in the heart of the Andes, Baños provides a tranquil escape
             with its serene landscapes and calming waters. Whether you’re
             enjoying a spa day, taking a leisurely walk through the town’s

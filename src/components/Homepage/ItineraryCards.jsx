@@ -47,13 +47,13 @@ const ItineraryCards = ({ cards }) => {
         ))}
       </div>
       <button
-        className="absolute top-1/2 left-2 transform -translate-y-1/2 p-3 bg-gray-800 text-white rounded-full z-10"
+        className="absolute top-1/2 left-2 transform -translate-y-1/2 p-3 bg-gray-400 text-white rounded-full z-10"
         onClick={handlePrevClick}
       >
         <HiChevronLeft className="w-7 h-7" />
       </button>
       <button
-        className="absolute top-1/2 right-2 transform -translate-y-1/2 p-3 bg-gray-800 text-white rounded-full z-10"
+        className="absolute top-1/2 right-2 transform -translate-y-1/2 p-3 bg-gray-400 text-white rounded-full z-10"
         onClick={handleNextClick}
       >
         <HiChevronRight className="w-7 h-7" />

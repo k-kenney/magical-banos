@@ -21,7 +21,11 @@
 }
 
 .bg-gray-800 {
-  background-color: #53535388; /* Tailwind's gray-800 color */
+  background-color: #dbdbdb7a; /* Tailwind's gray-800 color */
+}
+
+.bg-gray-400 {
+  background-color: #8181817a; /* Tailwind's gray-800 color */
 }
 
 .text-white {
