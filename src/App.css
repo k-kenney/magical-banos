@@ -5,3 +5,30 @@
   text-align: center;
   background-color: #FFFAF1;
 }
+
+/* In your App.css or Tailwind configuration */
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bg-gray-800 {
+  background-color: #fffaf15d; /* Tailwind's gray-800 color */
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
