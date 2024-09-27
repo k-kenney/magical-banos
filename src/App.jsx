@@ -8,6 +8,7 @@ import Baths from "./screens/Baths";
 import ToDo from "./screens/ToDo";
 import ToEat from "./screens/ToEat";
 import Footer from "./components/Footer";
+import { Itineraries } from "./screens/Itineraries";
 
 function App() {
   const [navbarOpacity, setNavbarOpacity] = useState(1); // Start with full opacity
@@ -46,6 +47,7 @@ function App() {
         <Route path="/baths" element={<Baths />} />
         <Route path="/toDo" element={<ToDo />} />
         <Route path="/toEat" element={<ToEat />} />
+        <Route path="/itineraries" element={<Itineraries />} />
       </Routes>
       <Footer />
     </Router>
